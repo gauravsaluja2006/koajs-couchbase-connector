@@ -21,6 +21,8 @@
  */
 module.exports = createCouchbaseConnections;
 
+var couchbase = require('couchbase');
+
 function createCouchbaseConnections(options) {
 
     let connectionUrl = `couchbase://${options.host}`;
