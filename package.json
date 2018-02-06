@@ -1,6 +1,6 @@
 {
   "name": "koajs-couchbase-connector",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Integrate Couchbase with Koa JS to access all your buckets in your middleware",
   "main": "index.js",
   "scripts": {
