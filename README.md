@@ -10,7 +10,7 @@ Integrate Couchbase with Koa JS to access all your buckets in your middleware
 ## Usage
 
     const Koa = require('koa');
-    const couchOperations = require('koajs-couchbase-connector');
+    const createCouchbaseConnections = require('koajs-couchbase-connector');
 
     const app = new Koa();
 
